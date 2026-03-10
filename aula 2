@@ -1,0 +1,190 @@
+valor1 = int (input ("Valor 1 - "))
+#valor2 = int (input ("Valor 2 - "))
+
+#resultado = valor1 + valor2
+
+#print ("Resultado soma - ", resultado )
+
+#horas = int (input("Horas - "))
+#minutos = 60 
+
+#var_resultado = horas * minutos 
+
+#print ("Resultado conversão - ", var_resultado)
+
+#valor1 = int(input ("Valor 1 - "))
+#valor2 = int(input ("Valor 2 - "))
+#valor3 = int(input ("Valor 3 - "))
+#valor4 = int(input ("Valor 4 - "))
+#valor5 = int(input ("Valor 5 - "))
+
+#resultado = valor1 + valor2 + valor3 + valor4 + valor5
+#resultado1 = resultado / 5
+
+#print ("Resultado média - " , resultado1)
+
+
+#valor1 = int(input("Valor 1 - "))
+#valor2 = int(input("Valor 2 - "))
+
+#resultado1 = valor1 * 3
+#resultado2 = valor2 * 3
+
+#print ("Resultado 1 - ", resultado1, "\nResultado 2 - ", resultado2 )
+
+
+#base = int(input("Base - "))
+#altura = int(input("Altura - "))
+
+#resultado = base * altura
+#resultado1 = resultado / 2
+
+#print ("Resultado area - ", resultado1)
+
+#raio = int(input("Raio do circulo - "))
+#raio1 = raio * raio 
+#area = raio1 * 3.14
+#circ = 2 * 3.14 * raio 
+
+#print ("Area - ", area , "\nCircunferencia - ", circ)
+
+###Questão 11
+
+#valorF = float(input("Valor Fahrenheit - "))
+#valorC = (valorF - 32) / 1.8
+
+#print (f" Valor Celsius é {valorC: .2f} ")
+
+#exponenciação (**)
+#divisão inteira (//)
+#modulo da divisão - resto (%)
+
+#valor1 = int(input("Insira um número - "))
+#res1 = valor1 * 1
+#res2 = valor1 * 2
+#res3 = valor1 * 3
+#res4 = valor1 * 4
+#res5 = valor1 * 5
+#res6 = valor1 * 6
+#res7 = valor1 * 7
+#res8 = valor1 * 8
+#res9 = valor1 * 9
+#res10 = valor1 * 10
+
+#print (f"Tabuada \n{valor1} x 1 = {res1} \n{valor1} x 2 = {res2} \n{valor1} x 3 = {res3} \n{valor1} x 4 = {res4}  \n{valor1} x 5 = {res5} \n{valor1} x 6 = {res6} \n{valor1} x 7 = {res7} \n{valor1} x 8 = {res8} \n{valor1} x 9 = {res9} \n{valor1} x 10 = {res10}")
+
+#AND - todas verdadeiras
+#OR - pelo menos uma
+# if (condição)
+#else n sei oq
+
+#valor1 = int(input ("Valor 1 - "))
+#valor2 = int(input ("Valor 2 - "))
+
+#f (valor1 > valor2):
+#    print (f"{valor1} é o maior e {valor2} é o menor. O cubo do maior valor é {valor1**3}.")  
+#elif (valor2 > valor1):
+#    print (f"{valor2} é o maior e {valor1} é o menor. O cubo do maior valor é {valor2**3}.")
+#else:
+#    print ("Os numeros são iguais")
+
+#######    QUESTAO 1
+#valor1 = int(input("Digite um numero - "))
+
+#if (valor1 > 0 and valor1 < 100):
+#    print ("O número está entre 0 e 100")
+#else:
+#    print ("O número não está entre 0 e 100")
+
+######     QUESTAO 2
+#valor1 = int(input("Insira um valor - "))
+
+#if (valor1 %2 == 0 ):
+#    print ("Esse número é par")
+#else:
+#    print ("Esse número é ímpar")
+
+###### QUESTÃO 3
+# valor1 = int(input ("Digite um número - "))
+# 
+# if (valor1 > 0 ):
+#    print ("Esse número é maior que zero")
+# elif (valor1 == 0 ):
+#    print ("Esse número é igual a zero")
+# else:
+#    print ("Esse número é menor do que zero")
+
+
+#######     QUESTAO 4
+# valor1 = int (input("Em que ano estamos? "))
+# valor2 = int (input("Em qual ano você nasceu? "))
+# resulta = valor1 - valor2 
+# 
+# if (resulta > 18 ):
+    # print (f"Você tem {resulta} anos e pode tirar a CNH!!")
+# else:
+    # print (f"Você tem {resulta} anos e não tem idade para tirar a CNH!!")
+
+####### QUESTAO 5
+# abates = int (input("Abates - "))
+# mortes = int (input("Mortes - "))
+# assist = int (input("Assistências - "))
+# result= (abates + assist) - mortes
+# 
+# if (result > 0):
+    # print (f"O saldo é {result} e é positivo")
+# elif (result == 0):
+    # print ("O saldo é igual a 0")
+# else:
+    # print (f"O resultado é {result} e é negativo")
+
+
+####### QUESTAO 6
+# maças = int(input("Quantas maçãs? "))
+# resultado = maças * 0.45
+# resultado2 = maças * 0.50
+# 
+# if (maças >= 12):
+    # print (f'O valor da compra é R${resultado:.2f}')
+# else:
+    # print (f"O valor da compra é R${resultado2:.2f}")
+
+########    QUESTAO 7
+# nota1 = float(input("Nota 1 - "))
+# nota2 = float(input("Nota 2 - "))
+# nota3 = float(input("Nota 3 - "))
+# média = (nota1 + nota2 + nota3) / 3
+# 
+# if (média < 5):
+    # print (f"Sua média {média:.1f} é insuficiente")
+# elif (média >= 5 and média < 6.9):
+    # print (f"Sua média {média:.1f} é regular")
+# elif (média >= 7 and média < 8.9):
+    # print (f"Sua média {média:.1f} é considerada BOM")
+# else:
+    # print (f"Sua média {média:.1f} é excelente")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
