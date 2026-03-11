@@ -253,6 +253,94 @@ else:
 #    print (f'Você não tem desconto, o valor final da compra é R${valor:.2f}')
 
 
+# for var in range (10, 0, -1):
+    #  print (var)
+# print ("Feliz ano Novo!!")
+
+#####  QUESTAO 1
+#numero = int(input('escolha um número - '))
+#
+#for tabuada in range (1, 11, 1):
+#    print (f'{numero} x {tabuada} = {numero * tabuada}')
+#print ('fim')
+
+
+###### QUESTAO 2 JEITO 1
+# n = int(input('Escolha um numero - '))
+# while (n != 0):
+    # n = n - 1
+    # print (f'{n}')
+# print ('BOOOM')
+
+##### JEITO 2
+# jn = int(input('Escolha um numero - '))
+# for n in range (jn, -1, -1):
+    # print(n)
+# print ('BOOOM')
+
+
+######    QUESTAO 3
+# n = int(input("Escolha um número - ")) 
+# fatorial = 1
+# 
+# for num in range (1, n + 1, 1):
+    # fatorial = fatorial * num 
+    # print (f'{fatorial}')
+
+
+######      QUESTAO 4
+# num1 = int(input('Escolha um número - '))
+# num2 = int(input('Escolha outro número - '))
+# res_exp = num1 ** num2
+# for result in range (0, res_exp, 1):
+    # print (result)
+
+######   QUESTÃO 5
+# numero = 0
+# opção = True
+# 
+# while (opção):
+    # perg = int(input('Insira 1 para continuar e 0 para parar ' ) )
+    # if perg == 1:
+        # numero += 10
+    # elif perg == 0:
+        # opção = False
+    # else:
+        # print ('Nao tem essa opção')
+# print (numero)
+    
+
+
+
+     AULA 3
+
+
+######  QUESTAO 6 
+# numero = int(input('Digite um número - '))
+# 
+# for tab in range (1, 5 , 1):
+    # numero = numero **tab 
+    # print (numero)
+
+
+###### QUESTAO 7
+# frase = str(input('Escreva uma frase - '))
+# numero = int(input('Digite um numero - '))
+# 
+# print ('sua frase foi atacada pelo virus muehehhe')
+# 
+# for fr in range (0, numero ):
+    # print ('mueheheh')
+
+
+soma = 0
+var = True
+
+while (var):
+    numero = int(input('Digite um valor - '))
+    soma = numero 
+    média = soma / numero
+    if (numero != 0): 
 
 
 
