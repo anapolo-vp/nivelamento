@@ -164,7 +164,93 @@ valor1 = int (input ("Valor 1 - "))
 # else:
     # print (f"Sua média {média:.1f} é excelente")
 
+######      QUESTAO 14
+numero = int(input('Digite um número de 1 a 12 - '))
 
+if (numero == 1):
+    print("Mês correspondente Janeiro")
+    print("Semestre 1°")
+    print("Estação do ano Verão")
+elif (numero == 2):
+    print("Mês correspondente Fevereiro")
+    print("Semestre 1°")
+    print("Estação do ano Verão")
+elif (numero == 3):
+    print("Mês correspondente Março")
+    print("Semestre 1°")
+    print("Estação do ano Outono")
+elif (numero == 4):
+    print("Mês correspondente Abril")
+    print("Semestre 1°")
+    print("Estação do ano Outono")
+elif (numero == 5):
+    print("Mês correspondente Maio")
+    print("Semestre 1°")
+    print("Estação do ano Outono")
+elif (numero == 6):
+    print("Mês correspondente Junho")
+    print("Semestre 1°")
+    print("Estação do ano Inverno")
+elif (numero == 7):
+    print("Mês correspondente Julho")
+    print("Semestre 2°")
+    print("Estação do ano Inverno")
+elif (numero == 8):
+    print("Mês correspondente Agosto")
+    print("Semestre 2°")
+    print("Estação do ano Inverno")
+elif (numero == 9):
+    print("Mês correspondente Setembro")
+    print("Semestre 2°")
+    print("Estação do ano Primavera")
+elif (numero == 10):
+    print("Mês correspondente Outubro")
+    print("Semestre 2°")
+    print("Estação do ano Primavera")
+elif (numero == 11):
+    print("Mês correspondente Novembro")
+    print("Semestre 2°")
+    print("Estação do ano Primavera")
+elif (numero == 12):
+    print("Mês correspondente Dezembro")
+    print("Semestre 2°")
+    print("Estação do ano Verão")
+else:
+    print ('ERRO, esse número não está entre 1 e 12')
+
+#####      QUESTAO 16
+#ano = int(input("Ano - "))
+
+#if (ano %4 == 0 ):
+#    print ("True, esse ano é bissexto")
+#else:
+#    print ("False, esse ano não é bissexto")
+
+#####     QUESTAO 17
+#distancia = int(input('Quantos kms? - '))
+#entrega = str(input('Qual é a forma de entrega? '))
+#entregaR = distancia * 1.5
+#entregaE = distancia * 2.0
+
+#if (entrega == 'Rápida'):
+#    print (f'O valor do frete será de R${entregaR:.2f} reais')
+#elif (entrega == 'Expressa'):
+#    print (f'O valor do frete será de R${entregaE:.2f} reais')
+#else:
+#    print (f'O valor do frete será de R${distancia:.2f} reais')
+
+#####    QUESTÃO 18
+#valor = float(input("Valor da compra - R$  "))
+#forma_de_pagamento = str (input("Qual a forma de pagamento? "))
+#resultadoCC = valor - (valor * 0.05)
+#resultadopix = valor - (valor * 0.10)
+
+#if (forma_de_pagamento == "Cartão de crédito"):
+#    print (f'Você tem 5% de desconto, o valor final da compra é R${resultadoCC:.2f}')
+#elif (forma_de_pagamento == "Pix"):
+#    print (f'Você tem 10% de desconto, o valor final da compra é R${resultadopix:.2f}')
+#else:
+#    print (f'Você não tem desconto, o valor final da compra é R${valor:.2f}')
 
 
 
