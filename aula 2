@@ -401,6 +401,138 @@ if invertido == string:
 else:
      print ('Essa palvra não é um palíndromo')
 
+    
+
+# lista = [ 1, 2, 3, 4, 5, 6]
+# print (lista)
+# variavel = True
+# 
+# while (variavel):
+    # perg  = int(input('Digite 1 para adcionar numeros, 2 para retirar, 3 para sair - '))
+    # if perg == 1:
+        # add = int(input('qual numero voce quer adicionar - '))
+        # lista.append (add)
+        # print (lista)
+    # elif perg == 2:
+        # remover = int(input('qual numero ira remover'))
+        # lista.remove (remover)
+        # print (lista)
+    # else:
+        # variavel = False
+        # print ("invalido")
+# print (lista)
+
+#########  QUESTÃO 1
+# lista = []
+# variavel = True
+# soma = 0 
+# 
+# while (variavel):
+    # perg = int(input('1 para adicionar numeros na lista e 2 para somar os numeros da lista - '))
+    # if perg == 1:
+    #  add = int(input('qual numero voce quer adicionar - '))
+    #  lista.append (add)
+    #  print (lista)
+    #  soma = soma + add
+    # elif perg == 2:
+    #    variavel = False
+    #    print (f' lista {lista} e soma {soma}')
+    # else:
+    #    print ('esse numero nao é valido')
+
+
+#######   QUESTAO 2
+# lista = [2, 3, 5, 57, 8, 456, 89]
+# ordem_maior = 0 
+# ordem_menor = 0 
+# 
+# for i in lista:
+    # if i > ordem_maior:
+        # ordem_maior = i
+    # elif i < ordem_menor:
+        # ordem_menor = i       
+# print (f' o maior é {ordem_maior} o menor é {ordem_menor}')
+
+
+########   QUESTAO 3
+# lista = [2, 2, 2, 4, 5, 5, 6, 6, 6, 7, 7, 7, 7, 7]
+# print (lista)
+# numero = int(input('Qual numero voce deseja contar na lista - '))
+# contador = 0
+# 
+# for i in lista:
+    # if numero == i:
+        # contador = contador + 1
+# print (f'o número {numero} aparece na lista {contador} vezes')
+
+
+
+#########    QUESTAO 4 
+# lista = []
+# variavel = True
+# media = 0 
+# divisor = 0 
+# numero = 0 
+# 
+# while (variavel):
+    # perg = int(input('1 para adicionar numeros na lista e 2 para ver a média dos numeros da lista - '))
+    # if perg == 1:
+    #  add = int(input('qual numero voce quer adicionar - '))
+    #  lista.append (add)
+    #  print (lista)
+    #  numero = add + numero
+    #  divisor = divisor + 1
+    # elif perg == 2:
+    #    variavel = False
+    #    media = numero / divisor
+    #    print (f' lista {lista} e média {media}')
+    # else:
+    #    print ('esse numero nao é valido')
+
+#########    QUESTAO 5
+# lista = [2, 4, 7, 9, 13, 63]
+# print (lista)
+# numero = int(input('Escolha um numero - '))
+# lista2 = []
+# 
+# for i in lista:
+    # add = numero * i
+    # lista2.append (add)
+# print (lista2)
+
+########   QUESTAO 6
+# lista = [2,5,6,7,78,3,43,23,5,6,74]
+# quant = 0 
+# for i in lista:
+    # quant = quant + 1
+# print (f'a lista é {lista} e possui {quant} numeros')
+
+##########   QUESTAO 7
+# lista = []
+# variavel = True
+# quadrado = 0 
+# lista_quadrados = []
+#  
+# while (variavel):
+    #  perg = int(input('1 para adicionar numeros na lista e 2 para ver o quadrado dos numeros da lista - '))
+    #  if perg == 1:
+    #   add = int(input('qual numero voce quer adicionar - '))
+    #   lista.append (add)
+    #   print (lista)  
+    #   quadrado = add**2
+    #   lista_quadrados.append (quadrado)
+    #  elif perg == 2:
+        # print (f' lista {lista} e quadrados {lista_quadrados}')
+    #  else:
+        # print ('esse numero nao é valido')
+
+########   QUESTAO 8
+# meses = [ 'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho'
+        #  'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
+# 
+# num = int(input('Digite um numero de 1 a 12 - '))
+# print (meses[num - 1])
+
 
 
 
