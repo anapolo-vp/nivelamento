@@ -343,6 +343,66 @@ while (var):
     if (numero != 0): 
 
 
+#######    QUESTAO 9 
+#media = 0 
+#opcao = True
+#soma = 0
+
+#while (opcao):
+#    numero = int(input('Digite um valor para a média e 0 para o resultado - '))
+#    if (numero != 0):
+#        media = media + 1
+#        soma = soma + numero
+#    elif numero == 0:
+#        opcao = False
+#resultado = soma / media
+#print (f'O resultado e {resultado}')
+
+
+
+##############  QUESTAO 11
+#soma = 0
+#soma2 = 0
+#media = 0
+
+#for numeros in range (1, 11 , 1):
+#    idades = int(input('digite a idade - '))
+#    salarios = int(input('digite o salarios - '))
+#    soma = soma + idades
+#    soma2 = soma2 + salarios
+#    media = media + 1
+#resultado1 = soma / media
+#resultado2 = soma2 / media
+#print (f'A média de idades é {resultado1} e a média de salários é R${resultado2:.2f}')
+
+
+#######    QUESTAO 12
+#numero = int(input('Insira um numero - '))
+#print (f"o{'i'* numero}")
+
+
+
+#######    QUESTAO 13
+#string = str(input("escreva alguma coisa - "))
+#invertido = ""
+
+#for i in string:
+#    invertido = i + invertido
+#print(invertido)
+
+##### QUESTAO 14
+string = str(input("escreva alguma coisa - "))
+invertido = ""
+
+for i in string:
+      invertido = i + invertido
+if invertido == string:
+      print('Essa palavra é um palíndromo')
+else:
+     print ('Essa palvra não é um palíndromo')
+
+
+
 
 
 
