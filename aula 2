@@ -537,6 +537,29 @@ else:
 
 
 
+############################################################   QUESTAO 13
+lista = [2, 234, 2345, 13, 1, 45, 4]
+contador = -1
+
+
+for i in lista:
+    contador = contador + 1
+contador2 = contador + 1
+
+while contador > 0:
+    for j in range(contador):
+        if lista[j] > lista[contador]:
+            lista[j], lista[contador] = lista[contador], lista[j]
+    contador -= 1        
+print(lista)
+
+if contador2 %2 != 0:
+   print (lista[contador2//2])
+else:
+    result = (lista[contador2//2 ] + lista[contador2//2 - 1]) /2
+    print (result)
+ 
+
 
 
 
