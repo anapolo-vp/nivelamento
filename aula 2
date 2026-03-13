@@ -563,6 +563,117 @@ else:
 
 
 
+#####################################   aula 5
+
+
+
+######  QUESTAO 2
+# def somar():
+    # a = int(input('digite um numero - '))
+    # b = int(input('Digite um numero - '))
+    # soma = a + b
+    # return soma
+# print(somar ())
+
+
+########   QUESTAO 3
+# def função ():
+    # num = int(input('digite um numero - '))
+    # if num %2 != 0:
+        # print ('o numero é ímpar')
+    # else:
+        # print ('o numero é par')
+    # return
+# função () 
+
+########   QUESTAO 4
+
+# def função():
+    # lista = []
+    # lista_pares = []
+    # variavel = True
+    # soma = 0
+    # while (variavel):
+        # perg = int(input('Digite 1 para adicionar na lista, 2 para somar os pares da lista e 3 para sair- '))
+        # if perg == 1:
+            # numeros = int(input('Digite um numero - '))
+            # lista.append (numeros)
+            # print (lista)
+            # if numeros %2 == 0:
+                # soma = soma + numeros
+                # lista_pares.append (numeros)
+        # elif perg == 2:
+                # print (f"{lista} e soma  é igual a {soma}")
+        # elif perg == 3:
+                # variavel = False  
+        # else:
+                # print ("esse numero nao é valido") 
+    # return lista_pares
+# 
+# função ()
+
+### RECEBE UMA LISTA E UM NUMERO E MULTIPLICA OS NUMEROS DA LISTA PELO NUMERO
+
+
+#######  QUESTAO 5
+# def funcao ():
+    # lista = []
+    # lista_mult = []
+    # variavel = True
+    # resultado = 0
+    # while (variavel):
+        # perg = int(input('Digite 1 para adicionar na lista e 2 para adicionar o multiplicador -  '))
+        # if perg == 1:
+            # numeros = int(input('Digite um numero - '))
+            # lista.append (numeros)
+            # print (lista)
+        # elif perg == 2:
+            # mult = int(input("Digite o multiplicador - "))
+            # for i in lista:
+                # resultado = i * mult
+                # lista_mult.append (resultado)
+            # print (f"{lista} x {mult} = {lista_mult}")
+            # variavel = False
+        # else:
+            # print ("esse numero nao é valido")
+    # return (lista_mult)
+# 
+# funcao ()
+
+
+###### RECEBE 3 VALORES INTEIROS E INDIQUE O MAIOR VALOR
+##### QUESTAO 6
+# def funcao ():
+    # lista = []
+    # contador = 0 
+    # maior = 0 
+    # while contador < 3:
+        # numeros = int(input('Digite um numero - '))
+        # lista.append (numeros)
+        # print (lista)
+        # for i in lista:
+            # if numeros > maior:
+                # maior = numeros
+        # contador = contador + 1
+    # print (f'o maior é {maior}')
+# 
+# funcao ()
+
+####### RECEBE UMA STRING OU UM TEXTO E CONTA QUANTAS VEZES TEM UM CARACTERE LA
+####### QUESTAO 09 
+
+
+lista = []
+frase = str(input('Digite uma frase - '))
+letra = str(input('Dgite uma letra - '))
+contador = 0
+lista.append (frase)
+
+for i in lista:
+    for j in i:
+    if i == letra:
+        contador = contador + 1
+print (contador)
 
 
 
