@@ -1,0 +1,63 @@
+##### CALCULAR A AREA DE UM TRIANGULO
+# base = float(input('Digite a base do triangulo - '))
+# altura = float(input('Digite a altura do triangulo - '))
+# area = (base * altura) /2
+# 
+# print (f'A area desse triangulo será {area}m²')
+
+##### CALCULAR A HIPOTENUSA DE UM TRIANGULO RETANGULO
+# import math
+# cateto1 = int(input('Qual o valor do primeiro cateto - '))
+# cateto2 = int(input('Qual o valor do segundo cateto - '))
+# hipotenusa = math.sqrt(cateto1**2 + cateto2**2)
+# 
+# print (f'A hipotenusa desse triangulo é {hipotenusa}')
+
+#####  CALCULAR O COMPRIMENTO DE UMA CIRCUNFERENCIA
+# import math
+# diametro = float(input('Digite o diâmetro - '))
+# raio = diametro / 2
+# math.pi
+# comprimento = 2 * math.pi * raio
+# 
+# print (f'O comprimento dessa circunferência é {comprimento:.2f}')
+
+####  CONVERSAO CELSIUS FAHRENHEIT
+# tempcelsius = float (input('Digite a temperatura em celsius - '))
+# tempfahrenheit = tempcelsius * 9 /5  + 32
+# 
+# print (f'{tempcelsius}°C em farenheit são {tempfahrenheit}°F')
+
+####  VOLUME DE UM CUBO
+# import math
+# area = float (input('Digite a area da face do cubo - '))
+# volume = math.sqrt(area**3)
+# print (f'O volume desse cubo é {volume}m³')
+
+####  DIVISAO DE LARANJAS
+# pessoas = int(input('Digite o número de pessoas - '))
+# laranjas = int(input('Digite o número de laranjas - '))
+# reparticao = laranjas // pessoas
+# resto = laranjas % pessoas 
+# 
+# print (f'A divisão dessas laranjas será {reparticao} para cada pessoa')
+# print (f'A sobra das laranjas será de {resto} laranjas')
+
+#### PROGRESSAO ARITMÉTICA
+# termo = int(input('Digite o primeiro termo - '))
+# razao = int(input('Digite a razão - '))
+# decimo = termo + (10 - 1) * razao
+# 
+# print ('O decimo termo é ', decimo)
+
+
+####  PROGRESSAO ARITMÉTICA 2
+termo1 = int(input('Digite o primeiro termo - '))
+razao = int(input('Digite a razão - '))
+n = int (input('Digite a ordem do termo - '))
+termo2 = termo1 + (n - 1) * razao
+
+print (f'O {n}° termo é {termo2}')
+
+
+
